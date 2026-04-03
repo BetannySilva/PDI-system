@@ -1,0 +1,91 @@
+* {
+    font-family: "Segoe UI", "Poppins", sans-serif;
+}
+QMainWindow {
+    background-color: #0F0F1A;
+}
+
+/* Sidebar */
+QWidget#sidebar {
+    background-color: #12121C;
+}
+
+/* Título */
+QLabel#title {
+    color: #A855F7;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Área da imagem */
+QLabel#imageArea {
+    border: 2px dashed #2A2A40;
+    background-color: #1A1A2E;
+    color: #6B7280;
+    font-size: 18px;
+}
+
+/* Botões */
+QPushButton {
+    background-color: #1E1E2E;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+}
+
+QPushButton:hover {
+    background-color: #A855F7;
+}
+
+QPushButton:pressed {
+    background-color: #9333EA;
+}
+
+#title {
+    color: #A855F7;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+
+
+#gammaInput {
+    background-color: #1E1E2E;
+    color: #E4E4E7;
+    border: 2px solid #2A2A40;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+/* Quando clica no campo */
+#gammaInput:focus {
+    border: 2px solid #A855F7;
+    background-color: #252538;
+}
+
+/* Placeholder */
+#gammaInput::placeholder {
+    color: #6B7280;
+}
+
+#paramInput {
+    background-color: #1E1E2E;
+    color: #E4E4E7;
+    border: 2px solid #2A2A40;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+#paramInput:focus {
+    border: 2px solid #A855F7;
+    background-color: #252538;
+}
+
+#paramInput::placeholder {
+    color: #6B7280;
+}
