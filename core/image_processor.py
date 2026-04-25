@@ -44,7 +44,7 @@ def aplicar_gamma(self):
 
 def alargamento_contraste(self, r1, s1, r2, s2 ,current_image):
         if self.current_image is not None:
-           self.final_image = current_image.copy()
+           self.final_imag e = current_image.copy()
            rows, cols, channels = current_image.shape 
            for i in range(rows):
               for j in range(cols): 
